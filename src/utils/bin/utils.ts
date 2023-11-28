@@ -19,50 +19,18 @@ export const date = async (): Promise<string> => {
   return new Date().toString();
 };
 
-export const gui = async (): Promise<string> => {
-  window.open('https://m4tt72.com', '_self');
-
-  return 'Opening GUI version...';
-};
-
 export const contact = async (): Promise<string> => {
   window.open('mailto:support@funcoding.jp');
 
   return 'Opening mailto:support@funcoding.jp...';
 };
 
-export const vi = async (): Promise<string> => {
-  return `why use vi? try 'emacs'.`;
-};
-
-export const vim = async (): Promise<string> => {
-  return `why use vim? try 'emacs'.`;
-};
-
-export const emacs = async (): Promise<string> => {
-  return `really? emacs? you should be using 'vim'`;
-};
-
-export const sudo = async (args?: string[]): Promise<string> => {
-  setTimeout(function () {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-  }, 1000);
-
-  return `Permission denied: unable to run the command '${args[0]}' as root.`;
-};
-
 export const repo = async (): Promise<string> => {
   setTimeout(function () {
-    window.open('https://github.com/m4tt72/terminal', '_blank');
+    window.open('https://github.com/funcoding-inc/company-website', '_blank');
   }, 1000);
 
   return 'Opening repository...';
-};
-
-export const donate = async (): Promise<string> => {
-  window.open(packageJson.funding.url, '_blank');
-
-  return 'Opening donation url...';
 };
 
 export const info = async (): Promise<string> => {
