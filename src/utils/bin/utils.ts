@@ -25,10 +25,10 @@ export const gui = async (args: string[]): Promise<string> => {
   return 'Opening GUI version...';
 };
 
-export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:hi@m4tt72.com');
+export const contact = async (args: string[]): Promise<string> => {
+  window.open('mailto:support@funcoding.jp');
 
-  return 'Opening mailto:hi@m4tt72.com...';
+  return 'Opening mailto:support@funcoding.jp...';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
