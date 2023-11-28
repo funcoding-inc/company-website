@@ -74,13 +74,9 @@ export const banner = (args?: string[]): string => {
 ██║     ╚██████╔╝██║ ╚████║╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝
 ╚═╝      ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ v${packageJson.version}
 
+"Fun" + "Coding" makes the world interesting 🌎
+Welcome to visit Funcoding Inc. official web page.
+
 Type 'help' to see list of available commands.
-
---
-The project is open-source 🎉 type 'repo' to check out the repository.
-
-New 🎉: Try out the new 'theme' command. See all available themes <a href="https://github.com/m4tt72/terminal/tree/master/docs/themes">in the docs</a>.
-New 🎉: New command 'neofetch', for you linux.
---
 `;
 };
