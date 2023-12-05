@@ -11,12 +11,45 @@ export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
 
-export const whoami = async (): Promise<string> => {
-  return 'guest';
+export const philosophy = async (): Promise<string> => {
+  return `
+"Fun" means literary "fun" but also means "function".
+Coding with our funcsions can make the world interesting.
+
+Our logo "f(c)" has the meaning like this.
+We believe that technology can make the world better.
+`;
 };
 
-export const date = async (): Promise<string> => {
-  return new Date().toString();
+export const skills = async (): Promise<string> => {
+  return `
+Frontend
+- React, Next.js
+- Vue.js, Nuxt
+- Electron
+- TypeScript, JavaScript
+
+Backend
+- Ruby on Rails
+- FastAPI
+- Spring Boot
+- Ruby, Python, Java
+
+Infrastructure
+- AWS
+- GCP
+
+Native app
+- Swift, SwiftUI
+- Kotlin, Jetpack Compose
+- React Native
+
+ETC
+- Docker
+- Kubernates
+- ElasticSearch
+
+`;
 };
 
 export const contact = async (): Promise<string> => {
